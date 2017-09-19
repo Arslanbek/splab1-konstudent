@@ -2,9 +2,11 @@
 //Group: 3EN04X
 
 #include <stdio.h>
-#include <math.h>
+#include <stdlib.h>
 
 int main(int argc, char*argv[]){
-	printf("hello\n");
+	double angle = atof(argv[1]);
+	printf("sin(%f)\n",angle);
+	printf("cos(%f)\n",angle);
 	return 0;
 }
